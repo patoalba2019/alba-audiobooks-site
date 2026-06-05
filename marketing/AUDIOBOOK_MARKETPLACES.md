@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Alba Audiobooks is a separate original-audio publishing imprint. It should not
+Aura Audio Club is a separate original-audio publishing imprint. It should not
 be presented as an API, bot or software product.
 
 ## First Products
@@ -19,6 +19,18 @@ be presented as an API, bot or software product.
 
 For large recipe titles, the companion PDF is important because recipe
 reference content is difficult to use as audio alone.
+
+## Additional High-Demand Lines
+
+- Spirituality and daily inner peace
+- Self-help, confidence, habits and personal renewal
+- Angel guidance, guardian angel meditations and symbolic inspiration
+- Prosperity, abundance, money calm and money mindset
+- Practical income ideas for creators and small digital products
+
+Prosperity and money titles should be written as inspiration plus practical
+habits. They must not promise guaranteed income, investment results or magical
+financial outcomes.
 
 ## Publication Order
 

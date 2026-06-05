@@ -16,7 +16,10 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-001.png"
+    "cover": "assets/covers/aab-001.png",
+    "audio_preview": "assets/audio/aab-001-preview.m4a",
+    "preview_script": "content/previews/aab-001.txt",
+    "production_state": "audio-preview-ready"
   },
   {
     "id": "aab-002",
@@ -35,7 +38,10 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-002.png"
+    "cover": "assets/covers/aab-002.png",
+    "audio_preview": "assets/audio/aab-002-preview.m4a",
+    "preview_script": "content/previews/aab-002.txt",
+    "production_state": "audio-preview-ready"
   },
   {
     "id": "aab-003",
@@ -54,7 +60,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-003.png"
+    "cover": "assets/covers/aab-003.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-004",
@@ -73,7 +80,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-004.png"
+    "cover": "assets/covers/aab-004.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-005",
@@ -92,7 +100,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-005.png"
+    "cover": "assets/covers/aab-005.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-006",
@@ -111,7 +120,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-006.png"
+    "cover": "assets/covers/aab-006.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-007",
@@ -130,7 +140,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-007.png"
+    "cover": "assets/covers/aab-007.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-008",
@@ -149,7 +160,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-008.png"
+    "cover": "assets/covers/aab-008.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-009",
@@ -168,7 +180,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-009.png"
+    "cover": "assets/covers/aab-009.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-010",
@@ -187,7 +200,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-010.png"
+    "cover": "assets/covers/aab-010.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-011",
@@ -206,7 +220,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-011.png"
+    "cover": "assets/covers/aab-011.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-012",
@@ -225,7 +240,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-012.png"
+    "cover": "assets/covers/aab-012.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-013",
@@ -244,7 +260,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-013.png"
+    "cover": "assets/covers/aab-013.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-014",
@@ -263,7 +280,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-014.png"
+    "cover": "assets/covers/aab-014.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-015",
@@ -282,7 +300,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-015.png"
+    "cover": "assets/covers/aab-015.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-016",
@@ -301,7 +320,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-016.png"
+    "cover": "assets/covers/aab-016.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-017",
@@ -320,7 +340,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-017.png"
+    "cover": "assets/covers/aab-017.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-018",
@@ -339,7 +360,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-018.png"
+    "cover": "assets/covers/aab-018.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-019",
@@ -358,7 +380,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-019.png"
+    "cover": "assets/covers/aab-019.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-020",
@@ -377,7 +400,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-020.png"
+    "cover": "assets/covers/aab-020.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-021",
@@ -396,7 +420,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-021.png"
+    "cover": "assets/covers/aab-021.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-022",
@@ -415,7 +440,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-022.png"
+    "cover": "assets/covers/aab-022.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-023",
@@ -434,7 +460,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-023.png"
+    "cover": "assets/covers/aab-023.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-024",
@@ -453,7 +480,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-024.png"
+    "cover": "assets/covers/aab-024.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-025",
@@ -472,7 +500,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-025.png"
+    "cover": "assets/covers/aab-025.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-026",
@@ -491,7 +520,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-026.png"
+    "cover": "assets/covers/aab-026.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-027",
@@ -510,7 +540,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-027.png"
+    "cover": "assets/covers/aab-027.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-028",
@@ -529,7 +560,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-028.png"
+    "cover": "assets/covers/aab-028.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-029",
@@ -548,7 +580,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-029.png"
+    "cover": "assets/covers/aab-029.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-030",
@@ -567,7 +600,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-030.png"
+    "cover": "assets/covers/aab-030.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-031",
@@ -586,7 +620,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-031.png"
+    "cover": "assets/covers/aab-031.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-032",
@@ -605,7 +640,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-032.png"
+    "cover": "assets/covers/aab-032.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-033",
@@ -624,7 +660,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-033.png"
+    "cover": "assets/covers/aab-033.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-034",
@@ -643,7 +680,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-034.png"
+    "cover": "assets/covers/aab-034.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-035",
@@ -662,7 +700,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-035.png"
+    "cover": "assets/covers/aab-035.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-036",
@@ -681,7 +720,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-036.png"
+    "cover": "assets/covers/aab-036.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-037",
@@ -700,7 +740,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-037.png"
+    "cover": "assets/covers/aab-037.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-038",
@@ -719,7 +760,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-038.png"
+    "cover": "assets/covers/aab-038.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-039",
@@ -738,7 +780,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-039.png"
+    "cover": "assets/covers/aab-039.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-040",
@@ -757,7 +800,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-040.png"
+    "cover": "assets/covers/aab-040.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-041",
@@ -776,7 +820,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-041.png"
+    "cover": "assets/covers/aab-041.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-042",
@@ -795,7 +840,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-042.png"
+    "cover": "assets/covers/aab-042.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-043",
@@ -814,7 +860,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-043.png"
+    "cover": "assets/covers/aab-043.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-044",
@@ -833,7 +880,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-044.png"
+    "cover": "assets/covers/aab-044.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-045",
@@ -852,7 +900,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-045.png"
+    "cover": "assets/covers/aab-045.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-046",
@@ -871,7 +920,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-046.png"
+    "cover": "assets/covers/aab-046.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-047",
@@ -890,7 +940,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-047.png"
+    "cover": "assets/covers/aab-047.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-048",
@@ -909,7 +960,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-048.png"
+    "cover": "assets/covers/aab-048.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-049",
@@ -928,7 +980,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-049.png"
+    "cover": "assets/covers/aab-049.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-050",
@@ -947,7 +1000,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-050.png"
+    "cover": "assets/covers/aab-050.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-051",
@@ -966,7 +1020,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-051.png"
+    "cover": "assets/covers/aab-051.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-052",
@@ -985,7 +1040,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-052.png"
+    "cover": "assets/covers/aab-052.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-053",
@@ -1004,7 +1060,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-053.png"
+    "cover": "assets/covers/aab-053.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-054",
@@ -1023,7 +1080,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-054.png"
+    "cover": "assets/covers/aab-054.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-055",
@@ -1042,7 +1100,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-055.png"
+    "cover": "assets/covers/aab-055.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-056",
@@ -1061,7 +1120,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-056.png"
+    "cover": "assets/covers/aab-056.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-057",
@@ -1080,7 +1140,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-057.png"
+    "cover": "assets/covers/aab-057.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-058",
@@ -1099,7 +1160,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-058.png"
+    "cover": "assets/covers/aab-058.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-059",
@@ -1118,7 +1180,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-059.png"
+    "cover": "assets/covers/aab-059.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-060",
@@ -1137,7 +1200,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-060.png"
+    "cover": "assets/covers/aab-060.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-061",
@@ -1156,7 +1220,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-061.png"
+    "cover": "assets/covers/aab-061.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-062",
@@ -1175,7 +1240,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-062.png"
+    "cover": "assets/covers/aab-062.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-063",
@@ -1194,7 +1260,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-063.png"
+    "cover": "assets/covers/aab-063.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-064",
@@ -1213,7 +1280,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-064.png"
+    "cover": "assets/covers/aab-064.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-065",
@@ -1232,7 +1300,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-065.png"
+    "cover": "assets/covers/aab-065.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-066",
@@ -1251,7 +1320,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-066.png"
+    "cover": "assets/covers/aab-066.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-067",
@@ -1270,7 +1340,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-067.png"
+    "cover": "assets/covers/aab-067.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-068",
@@ -1289,7 +1360,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-068.png"
+    "cover": "assets/covers/aab-068.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-069",
@@ -1308,7 +1380,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-069.png"
+    "cover": "assets/covers/aab-069.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-070",
@@ -1327,7 +1400,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-070.png"
+    "cover": "assets/covers/aab-070.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-071",
@@ -1346,7 +1420,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-071.png"
+    "cover": "assets/covers/aab-071.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-072",
@@ -1365,7 +1440,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-072.png"
+    "cover": "assets/covers/aab-072.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-073",
@@ -1384,7 +1460,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-073.png"
+    "cover": "assets/covers/aab-073.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-074",
@@ -1403,7 +1480,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-074.png"
+    "cover": "assets/covers/aab-074.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-075",
@@ -1422,7 +1500,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-075.png"
+    "cover": "assets/covers/aab-075.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-076",
@@ -1441,7 +1520,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-076.png"
+    "cover": "assets/covers/aab-076.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-077",
@@ -1460,7 +1540,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-077.png"
+    "cover": "assets/covers/aab-077.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-078",
@@ -1479,7 +1560,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-078.png"
+    "cover": "assets/covers/aab-078.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-079",
@@ -1498,7 +1580,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-079.png"
+    "cover": "assets/covers/aab-079.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-080",
@@ -1517,7 +1600,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-080.png"
+    "cover": "assets/covers/aab-080.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-081",
@@ -1536,7 +1620,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-081.png"
+    "cover": "assets/covers/aab-081.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-082",
@@ -1555,7 +1640,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-082.png"
+    "cover": "assets/covers/aab-082.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-083",
@@ -1574,7 +1660,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-083.png"
+    "cover": "assets/covers/aab-083.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-084",
@@ -1593,7 +1680,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-084.png"
+    "cover": "assets/covers/aab-084.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-085",
@@ -1612,7 +1700,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-085.png"
+    "cover": "assets/covers/aab-085.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-086",
@@ -1631,7 +1720,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-086.png"
+    "cover": "assets/covers/aab-086.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-087",
@@ -1650,7 +1740,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-087.png"
+    "cover": "assets/covers/aab-087.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-088",
@@ -1669,7 +1760,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-088.png"
+    "cover": "assets/covers/aab-088.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-089",
@@ -1688,7 +1780,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-089.png"
+    "cover": "assets/covers/aab-089.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-090",
@@ -1707,7 +1800,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-090.png"
+    "cover": "assets/covers/aab-090.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-091",
@@ -1726,7 +1820,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-091.png"
+    "cover": "assets/covers/aab-091.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-092",
@@ -1745,7 +1840,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-092.png"
+    "cover": "assets/covers/aab-092.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-093",
@@ -1764,7 +1860,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-093.png"
+    "cover": "assets/covers/aab-093.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-094",
@@ -1783,7 +1880,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-094.png"
+    "cover": "assets/covers/aab-094.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-095",
@@ -1802,7 +1900,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-095.png"
+    "cover": "assets/covers/aab-095.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-096",
@@ -1821,7 +1920,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-096.png"
+    "cover": "assets/covers/aab-096.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-097",
@@ -1840,7 +1940,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-097.png"
+    "cover": "assets/covers/aab-097.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-098",
@@ -1859,7 +1960,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-098.png"
+    "cover": "assets/covers/aab-098.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-099",
@@ -1878,7 +1980,8 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-099.png"
+    "cover": "assets/covers/aab-099.png",
+    "production_state": "catalog-concept"
   },
   {
     "id": "aab-100",
@@ -1897,6 +2000,633 @@ const AUDIOBOOK_CATALOG = [
       "Kobo",
       "Apple Books"
     ],
-    "cover": "assets/covers/aab-100.png"
+    "cover": "assets/covers/aab-100.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-101",
+    "category": "spirituality",
+    "title_en": "The Quiet Light Within",
+    "title_es": "La luz tranquila interior",
+    "subtitle": "A bilingual spiritual reflection audiobook for calm, intuition, gratitude and daily inner clarity.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-101.png",
+    "audio_preview": "assets/audio/aab-101-preview.m4a",
+    "preview_script": "content/previews/aab-101.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-102",
+    "category": "spirituality",
+    "title_en": "Signs, Synchronicities and Inner Peace",
+    "title_es": "Senales, sincronicidades y paz interior",
+    "subtitle": "Guided reflections on meaning, faith, timing and personal renewal.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-102.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-103",
+    "category": "spirituality",
+    "title_en": "Morning Prayers for a Clear Heart",
+    "title_es": "Oraciones de la manana para un corazon claro",
+    "subtitle": "Short spiritual chapters for hope, focus and emotional balance.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-103.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-104",
+    "category": "spirituality",
+    "title_en": "The Abundance Path of the Soul",
+    "title_es": "El camino de abundancia del alma",
+    "subtitle": "A warm spiritual approach to prosperity, generosity and purposeful living.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-104.png",
+    "audio_preview": "assets/audio/aab-104-preview.m4a",
+    "preview_script": "content/previews/aab-104.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-105",
+    "category": "spirituality",
+    "title_en": "Meditations for Protection and Gratitude",
+    "title_es": "Meditaciones para proteccion y gratitud",
+    "subtitle": "Daily meditations for calm, boundaries, gratitude and personal strength.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-105.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-106",
+    "category": "spirituality",
+    "title_en": "The Voice of Intuition",
+    "title_es": "La voz de la intuicion",
+    "subtitle": "Stories and exercises for listening to intuition without fear or confusion.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-106.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-107",
+    "category": "self-help",
+    "title_en": "Become the Person Who Keeps Going",
+    "title_es": "Conviertete en la persona que sigue adelante",
+    "subtitle": "Practical self-help chapters for confidence, consistency and emotional discipline.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-107.png",
+    "audio_preview": "assets/audio/aab-107-preview.m4a",
+    "preview_script": "content/previews/aab-107.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-108",
+    "category": "self-help",
+    "title_en": "Reset Your Life in Small Steps",
+    "title_es": "Reinicia tu vida en pequenos pasos",
+    "subtitle": "Simple habit, focus and mindset tools for listeners rebuilding momentum.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-108.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-109",
+    "category": "self-help",
+    "title_en": "Confidence Without Noise",
+    "title_es": "Confianza sin ruido",
+    "subtitle": "A calm self-improvement audiobook about self-worth, decisions and personal presence.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-109.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-110",
+    "category": "self-help",
+    "title_en": "Discipline That Feels Human",
+    "title_es": "Disciplina que se siente humana",
+    "subtitle": "A kinder method for building routines, finishing goals and recovering after setbacks.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-110.png",
+    "audio_preview": "assets/audio/aab-110-preview.m4a",
+    "preview_script": "content/previews/aab-110.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-111",
+    "category": "self-help",
+    "title_en": "Stop Starting Over",
+    "title_es": "Deja de empezar de cero",
+    "subtitle": "A practical guide to staying consistent with health, money, work and relationships.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-111.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-112",
+    "category": "self-help",
+    "title_en": "The New Chapter Method",
+    "title_es": "El metodo del nuevo capitulo",
+    "subtitle": "A motivational framework for changing identity, habits and daily choices.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-112.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-113",
+    "category": "prosperity",
+    "title_en": "Prosperity Habits for Everyday Life",
+    "title_es": "Habitos de prosperidad para la vida diaria",
+    "subtitle": "Mindset, gratitude and practical planning for a healthier relationship with money.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-113.png",
+    "audio_preview": "assets/audio/aab-113-preview.m4a",
+    "preview_script": "content/previews/aab-113.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-114",
+    "category": "prosperity",
+    "title_en": "The Abundance Frequency",
+    "title_es": "La frecuencia de la abundancia",
+    "subtitle": "Inspirational prosperity reflections, affirmations and grounded money awareness.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-114.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-115",
+    "category": "prosperity",
+    "title_en": "Open Doors: A Prosperity Meditation Journey",
+    "title_es": "Puertas abiertas: viaje de meditacion de prosperidad",
+    "subtitle": "Guided prosperity meditations for hope, focus, generosity and opportunity.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-115.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-116",
+    "category": "prosperity",
+    "title_en": "Manifesting With Action",
+    "title_es": "Manifestar con accion",
+    "subtitle": "A practical manifestation audiobook that pairs intention with habits, skills and follow-through.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-116.png",
+    "audio_preview": "assets/audio/aab-116-preview.m4a",
+    "preview_script": "content/previews/aab-116.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-117",
+    "category": "prosperity",
+    "title_en": "The Gratitude and Wealth Notebook",
+    "title_es": "El cuaderno de gratitud y riqueza",
+    "subtitle": "Daily audio prompts for gratitude, earning ideas, spending awareness and personal growth.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-117.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-118",
+    "category": "prosperity",
+    "title_en": "Abundance Without Fear",
+    "title_es": "Abundancia sin miedo",
+    "subtitle": "A spiritual self-help guide for reducing money anxiety and building confidence.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-118.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-119",
+    "category": "angel-guidance",
+    "title_en": "Messages from the Angels of Prosperity",
+    "title_es": "Mensajes de los angeles de prosperidad",
+    "subtitle": "Inspirational angel-themed reflections for hope, abundance, courage and renewal.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-119.png",
+    "audio_preview": "assets/audio/aab-119-preview.m4a",
+    "preview_script": "content/previews/aab-119.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-120",
+    "category": "angel-guidance",
+    "title_en": "Angel Numbers and New Beginnings",
+    "title_es": "Numeros angelicales y nuevos comienzos",
+    "subtitle": "A gentle guide to symbolic signs, personal meaning and daily encouragement.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-120.png",
+    "audio_preview": "assets/audio/aab-120-preview.m4a",
+    "preview_script": "content/previews/aab-120.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-121",
+    "category": "angel-guidance",
+    "title_en": "Guardian Angel Meditations for Sleep",
+    "title_es": "Meditaciones de angeles guardianes para dormir",
+    "subtitle": "Soft bedtime meditations for peace, protection and emotional release.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-121.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-122",
+    "category": "angel-guidance",
+    "title_en": "The Archangel Prosperity Path",
+    "title_es": "El camino de prosperidad de los arcangeles",
+    "subtitle": "Angel-inspired prosperity reflections with affirmations and grounded action prompts.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-122.png",
+    "audio_preview": "assets/audio/aab-122-preview.m4a",
+    "preview_script": "content/previews/aab-122.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-123",
+    "category": "angel-guidance",
+    "title_en": "Ask, Listen, Receive",
+    "title_es": "Pide, escucha, recibe",
+    "subtitle": "A bilingual angel guidance audiobook about prayer, intuition and aligned decisions.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-123.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-124",
+    "category": "angel-guidance",
+    "title_en": "Angels for Money Calm and Courage",
+    "title_es": "Angeles para calma financiera y coraje",
+    "subtitle": "Comforting reflections for money stress, faith and taking practical next steps.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-124.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-125",
+    "category": "money-mindset",
+    "title_en": "How to Think Like a Money Builder",
+    "title_es": "Como pensar como constructor de dinero",
+    "subtitle": "A practical money mindset audiobook about earning, saving, offers and simple business ideas.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-125.png",
+    "audio_preview": "assets/audio/aab-125-preview.m4a",
+    "preview_script": "content/previews/aab-125.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-126",
+    "category": "money-mindset",
+    "title_en": "Attract Money With Better Decisions",
+    "title_es": "Atrae dinero con mejores decisiones",
+    "subtitle": "A grounded guide to opportunity, attention, habits and income-focused choices.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-126.png",
+    "audio_preview": "assets/audio/aab-126-preview.m4a",
+    "preview_script": "content/previews/aab-126.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-127",
+    "category": "money-mindset",
+    "title_en": "The First Extra Dollar",
+    "title_es": "El primer dolar extra",
+    "subtitle": "Simple ideas for creating side income, testing offers and learning from customers.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-127.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-128",
+    "category": "money-mindset",
+    "title_en": "Money Magnet Mindset",
+    "title_es": "Mentalidad iman de dinero",
+    "subtitle": "Affirmations and practical exercises for confidence, focus and earning awareness.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-128.png",
+    "audio_preview": "assets/audio/aab-128-preview.m4a",
+    "preview_script": "content/previews/aab-128.txt",
+    "production_state": "audio-preview-ready"
+  },
+  {
+    "id": "aab-129",
+    "category": "money-mindset",
+    "title_en": "Prosperity for Solo Creators",
+    "title_es": "Prosperidad para creadores independientes",
+    "subtitle": "A creator-focused audiobook about digital products, small offers and customer value.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-129.png",
+    "production_state": "catalog-concept"
+  },
+  {
+    "id": "aab-130",
+    "category": "money-mindset",
+    "title_en": "The Calm Wealth Plan",
+    "title_es": "El plan de riqueza tranquila",
+    "subtitle": "Money clarity for normal people: habits, goals, risk awareness and steady progress.",
+    "language": "English + Spanish",
+    "format": "Audiobook manuscript, narration, cover and marketplace metadata package",
+    "status": "catalog-blueprint",
+    "target_length_hours": "4-9",
+    "marketplaces": [
+      "Amazon KDP",
+      "Audible/ACX",
+      "Google Play Books",
+      "Kobo",
+      "Apple Books"
+    ],
+    "cover": "assets/covers/aab-130.png",
+    "audio_preview": "assets/audio/aab-130-preview.m4a",
+    "preview_script": "content/previews/aab-130.txt",
+    "production_state": "audio-preview-ready"
   }
 ];

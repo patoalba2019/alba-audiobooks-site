@@ -3,56 +3,63 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Alba Audiobooks | Original Bilingual Audiobook Catalog</title>
+    <title>Aura Audio Club | Streaming-Style Bilingual Audiobook Catalog</title>
     <meta
       name="description"
-      content="Separate audiobook imprint for original English and Spanish audiobooks, recipe treasuries, fiction, documentary and instructive audio products."
+      content="Streaming-style catalog for original English and Spanish audiobooks across recipes, spirituality, self-help, prosperity, money mindset, fiction and learning."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="#catalog" aria-label="Alba Audiobooks home">
+      <a class="brand" href="#home" aria-label="Aura Audio Club home">
         <span class="brand-mark">AA</span>
-        <span>Alba Audiobooks</span>
+        <span>Aura Audio Club</span>
       </a>
       <nav class="nav" aria-label="Primary">
+        <a href="#listen">Listen</a>
+        <a href="#prosperity">Prosperity</a>
+        <a href="#recipes">Recipes</a>
         <a href="#catalog">Catalog</a>
-        <a href="#priority">Priority</a>
-        <a href="#marketplaces">Marketplaces</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero" id="catalog">
-        <div class="hero-copy">
-          <p class="eyebrow">Independent from patoapis</p>
-          <h1>Original bilingual audiobooks, produced as a separate publishing line.</h1>
-          <p>
-            A focused catalog for English and Spanish audio titles across recipes, drama,
-            horror, action, documentary, instructive, business, wellness and travel.
-          </p>
+    <main id="home">
+      <section class="hero-stream">
+        <div class="hero-art">
+          <img id="heroCover" src="assets/covers/aab-119.png" alt="Featured audiobook cover" />
         </div>
-        <div class="hero-panel" aria-label="Catalog metrics">
-          <div>
-            <strong id="totalCount">100</strong>
-            <span>catalog titles</span>
+        <div class="hero-copy">
+          <p class="eyebrow">Original bilingual audio catalog</p>
+          <h1 id="heroTitle">Messages from the Angels of Prosperity</h1>
+          <p id="heroSubtitle">
+            Inspirational angel-themed reflections for hope, abundance, courage and renewal.
+          </p>
+          <div class="hero-actions">
+            <button id="heroPlay" class="button primary" type="button">Play Preview</button>
+            <button id="heroDetails" class="button secondary" type="button">View Details</button>
           </div>
-          <div>
-            <strong>2</strong>
-            <span>1,000+ recipe treasuries</span>
-          </div>
-          <div>
-            <strong>5</strong>
-            <span>target marketplaces</span>
-          </div>
+          <dl class="hero-stats" aria-label="Catalog stats">
+            <div>
+              <dt>Titles</dt>
+              <dd id="totalCount">130</dd>
+            </div>
+            <div>
+              <dt>Audio Ready</dt>
+              <dd id="audioCount">15</dd>
+            </div>
+            <div>
+              <dt>Lines</dt>
+              <dd>15</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
-      <section class="controls" aria-label="Catalog controls">
+      <section class="toolbar" aria-label="Catalog filters">
         <label>
           <span>Search</span>
-          <input id="searchInput" type="search" placeholder="recipes, horror, business..." />
+          <input id="searchInput" type="search" placeholder="angels, money, recipes, horror..." />
         </label>
         <label>
           <span>Category</span>
@@ -61,66 +68,90 @@
           </select>
         </label>
         <label>
-          <span>Status</span>
-          <select id="statusSelect">
-            <option value="">All statuses</option>
-            <option value="priority-production">Priority production</option>
-            <option value="catalog-blueprint">Catalog blueprint</option>
+          <span>Availability</span>
+          <select id="availabilitySelect">
+            <option value="">All titles</option>
+            <option value="audio-preview-ready">Audio previews</option>
+            <option value="catalog-concept">Production queue</option>
           </select>
         </label>
       </section>
 
-      <section id="priority" class="priority">
+      <section id="listen" class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">First commercial batch</p>
-          <h2>Recipe flagships for long-form production</h2>
+          <p class="eyebrow">Listen now</p>
+          <h2>Audio previews ready</h2>
         </div>
-        <div id="priorityGrid" class="priority-grid"></div>
+        <div id="readyRail" class="rail"></div>
       </section>
 
-      <section class="catalog-section">
+      <section id="prosperity" class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">Catalog</p>
-          <h2>100-title editorial pipeline</h2>
+          <p class="eyebrow">Trending themes</p>
+          <h2>Spirituality, angels, prosperity and money mindset</h2>
+        </div>
+        <div id="prosperityRail" class="rail"></div>
+      </section>
+
+      <section id="recipes" class="rail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Food collections</p>
+          <h2>Sweet and savory recipe audiobooks</h2>
+        </div>
+        <div id="recipeRail" class="rail"></div>
+      </section>
+
+      <section class="rail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Stories</p>
+          <h2>Drama, horror and action</h2>
+        </div>
+        <div id="fictionRail" class="rail"></div>
+      </section>
+
+      <section id="catalog" class="catalog-section">
+        <div class="section-heading">
+          <p class="eyebrow">Browse</p>
+          <h2>Full production catalog</h2>
         </div>
         <div id="catalogGrid" class="catalog-grid"></div>
       </section>
-
-      <section id="marketplaces" class="marketplaces">
-        <div class="section-heading">
-          <p class="eyebrow">Publishing route</p>
-          <h2>Amazon and similar stores stay separate from API marketplaces</h2>
-        </div>
-        <div class="marketplace-list">
-          <span>Amazon KDP</span>
-          <span>Audible / ACX</span>
-          <span>Google Play Books</span>
-          <span>Kobo</span>
-          <span>Apple Books</span>
-        </div>
-      </section>
     </main>
+
+    <aside id="detailPanel" class="detail-panel" aria-live="polite">
+      <button id="closeDetails" class="close-button" type="button" aria-label="Close details">x</button>
+      <img id="detailCover" alt="" />
+      <div>
+        <p id="detailCategory" class="eyebrow"></p>
+        <h2 id="detailTitle"></h2>
+        <p id="detailSubtitle"></p>
+        <p id="detailMeta" class="detail-meta"></p>
+        <div class="detail-actions">
+          <button id="detailPlay" class="button primary" type="button">Play Preview</button>
+          <span id="detailStatus" class="status-pill"></span>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="player" id="playerBar">
+      <img id="playerCover" src="assets/covers/aab-119.png" alt="" />
+      <div class="player-info">
+        <strong id="playerTitle">Select an audiobook</strong>
+        <span id="playerSubtitle">Audio previews are available for the first production batch.</span>
+      </div>
+      <audio id="audioPlayer" controls preload="none"></audio>
+    </footer>
 
     <template id="bookTemplate">
       <article class="book-card">
-        <img class="book-cover" alt="" loading="lazy" />
+        <button class="book-button" type="button">
+          <img class="book-cover" alt="" loading="lazy" />
+          <span class="play-badge">Preview</span>
+        </button>
         <div class="book-body">
-          <div class="book-meta">
-            <span class="book-category"></span>
-            <span class="book-status"></span>
-          </div>
+          <span class="book-category"></span>
           <h3></h3>
           <p class="book-subtitle"></p>
-          <dl>
-            <div>
-              <dt>Format</dt>
-              <dd class="book-format"></dd>
-            </div>
-            <div>
-              <dt>Length</dt>
-              <dd class="book-length"></dd>
-            </div>
-          </dl>
         </div>
       </article>
     </template>
