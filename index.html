@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alba Audiobooks | Original Bilingual Audiobook Catalog</title>
+    <meta
+      name="description"
+      content="Separate audiobook imprint for original English and Spanish audiobooks, recipe treasuries, fiction, documentary and instructive audio products."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#catalog" aria-label="Alba Audiobooks home">
+        <span class="brand-mark">AA</span>
+        <span>Alba Audiobooks</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#catalog">Catalog</a>
+        <a href="#priority">Priority</a>
+        <a href="#marketplaces">Marketplaces</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="catalog">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent from patoapis</p>
+          <h1>Original bilingual audiobooks, produced as a separate publishing line.</h1>
+          <p>
+            A focused catalog for English and Spanish audio titles across recipes, drama,
+            horror, action, documentary, instructive, business, wellness and travel.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Catalog metrics">
+          <div>
+            <strong id="totalCount">100</strong>
+            <span>catalog titles</span>
+          </div>
+          <div>
+            <strong>2</strong>
+            <span>1,000+ recipe treasuries</span>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>target marketplaces</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Catalog controls">
+        <label>
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="recipes, horror, business..." />
+        </label>
+        <label>
+          <span>Category</span>
+          <select id="categorySelect">
+            <option value="">All categories</option>
+          </select>
+        </label>
+        <label>
+          <span>Status</span>
+          <select id="statusSelect">
+            <option value="">All statuses</option>
+            <option value="priority-production">Priority production</option>
+            <option value="catalog-blueprint">Catalog blueprint</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="priority" class="priority">
+        <div class="section-heading">
+          <p class="eyebrow">First commercial batch</p>
+          <h2>Recipe flagships for long-form production</h2>
+        </div>
+        <div id="priorityGrid" class="priority-grid"></div>
+      </section>
+
+      <section class="catalog-section">
+        <div class="section-heading">
+          <p class="eyebrow">Catalog</p>
+          <h2>100-title editorial pipeline</h2>
+        </div>
+        <div id="catalogGrid" class="catalog-grid"></div>
+      </section>
+
+      <section id="marketplaces" class="marketplaces">
+        <div class="section-heading">
+          <p class="eyebrow">Publishing route</p>
+          <h2>Amazon and similar stores stay separate from API marketplaces</h2>
+        </div>
+        <div class="marketplace-list">
+          <span>Amazon KDP</span>
+          <span>Audible / ACX</span>
+          <span>Google Play Books</span>
+          <span>Kobo</span>
+          <span>Apple Books</span>
+        </div>
+      </section>
+    </main>
+
+    <template id="bookTemplate">
+      <article class="book-card">
+        <img class="book-cover" alt="" loading="lazy" />
+        <div class="book-body">
+          <div class="book-meta">
+            <span class="book-category"></span>
+            <span class="book-status"></span>
+          </div>
+          <h3></h3>
+          <p class="book-subtitle"></p>
+          <dl>
+            <div>
+              <dt>Format</dt>
+              <dd class="book-format"></dd>
+            </div>
+            <div>
+              <dt>Length</dt>
+              <dd class="book-length"></dd>
+            </div>
+          </dl>
+        </div>
+      </article>
+    </template>
+
+    <script src="catalog.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
