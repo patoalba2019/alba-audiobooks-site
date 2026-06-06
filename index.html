@@ -17,11 +17,27 @@
         <span>Aura Audio Club</span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#listen">Listen</a>
-        <a href="#prosperity">Prosperity</a>
-        <a href="#recipes">Recipes</a>
-        <a href="#catalog">Catalog</a>
+        <a href="#listen" data-i18n="nav_listen">Listen</a>
+        <a href="#prosperity" data-i18n="nav_prosperity">Prosperity</a>
+        <a href="#recipes" data-i18n="nav_recipes">Recipes</a>
+        <a href="#catalog" data-i18n="nav_catalog">Catalog</a>
       </nav>
+      <div class="language-controls" aria-label="Language settings">
+        <label>
+          <span data-i18n="ui_language">Site</span>
+          <select id="uiLangSelect">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+        <label>
+          <span data-i18n="audio_language">Audio</span>
+          <select id="audioLangSelect">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+      </div>
     </header>
 
     <main id="home">
@@ -30,26 +46,29 @@
           <img id="heroCover" src="assets/covers/aab-119.png" alt="Featured audiobook cover" />
         </div>
         <div class="hero-copy">
-          <p class="eyebrow">Original bilingual audio catalog</p>
+          <p class="eyebrow" data-i18n="hero_eyebrow">Original bilingual audio catalog</p>
           <h1 id="heroTitle">Messages from the Angels of Prosperity</h1>
           <p id="heroSubtitle">
             Inspirational angel-themed reflections for hope, abundance, courage and renewal.
           </p>
           <div class="hero-actions">
-            <button id="heroPlay" class="button primary" type="button">Play Preview</button>
-            <button id="heroDetails" class="button secondary" type="button">View Details</button>
+            <button id="heroPlay" class="button primary" type="button" data-i18n="play_preview">Play Preview</button>
+            <button id="heroDetails" class="button secondary" type="button" data-i18n="view_details">View Details</button>
           </div>
+          <p class="secure-note" data-i18n="secure_note">
+            Free previews only. Complete audiobooks unlock as private downloads after payment.
+          </p>
           <dl class="hero-stats" aria-label="Catalog stats">
             <div>
-              <dt>Titles</dt>
+              <dt data-i18n="stat_titles">Titles</dt>
               <dd id="totalCount">130</dd>
             </div>
             <div>
-              <dt>Audio Ready</dt>
+              <dt data-i18n="stat_audio">Previews</dt>
               <dd id="audioCount">15</dd>
             </div>
             <div>
-              <dt>Lines</dt>
+              <dt data-i18n="stat_lines">Lines</dt>
               <dd>15</dd>
             </div>
           </dl>
@@ -58,61 +77,61 @@
 
       <section class="toolbar" aria-label="Catalog filters">
         <label>
-          <span>Search</span>
+          <span data-i18n="search_label">Search</span>
           <input id="searchInput" type="search" placeholder="angels, money, recipes, horror..." />
         </label>
         <label>
-          <span>Category</span>
+          <span data-i18n="category_label">Category</span>
           <select id="categorySelect">
-            <option value="">All categories</option>
+            <option value="" data-i18n="all_categories">All categories</option>
           </select>
         </label>
         <label>
-          <span>Availability</span>
+          <span data-i18n="availability_label">Availability</span>
           <select id="availabilitySelect">
-            <option value="">All titles</option>
-            <option value="audio-preview-ready">Audio previews</option>
-            <option value="catalog-concept">Production queue</option>
+            <option value="" data-i18n="all_titles">All titles</option>
+            <option value="audio-preview-ready" data-i18n="audio_previews">Audio previews</option>
+            <option value="catalog-concept" data-i18n="production_queue">Production queue</option>
           </select>
         </label>
       </section>
 
       <section id="listen" class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">Listen now</p>
-          <h2>Audio previews ready</h2>
+          <p class="eyebrow" data-i18n="listen_eyebrow">Listen now</p>
+          <h2 data-i18n="listen_title">Browser narration previews ready</h2>
         </div>
         <div id="readyRail" class="rail"></div>
       </section>
 
       <section id="prosperity" class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">Trending themes</p>
-          <h2>Spirituality, angels, prosperity and money mindset</h2>
+          <p class="eyebrow" data-i18n="trending_eyebrow">Trending themes</p>
+          <h2 data-i18n="trending_title">Spirituality, angels, prosperity and money mindset</h2>
         </div>
         <div id="prosperityRail" class="rail"></div>
       </section>
 
       <section id="recipes" class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">Food collections</p>
-          <h2>Sweet and savory recipe audiobooks</h2>
+          <p class="eyebrow" data-i18n="recipes_eyebrow">Food collections</p>
+          <h2 data-i18n="recipes_title">Sweet and savory recipe audiobooks</h2>
         </div>
         <div id="recipeRail" class="rail"></div>
       </section>
 
       <section class="rail-section">
         <div class="section-heading">
-          <p class="eyebrow">Stories</p>
-          <h2>Drama, horror and action</h2>
+          <p class="eyebrow" data-i18n="stories_eyebrow">Stories</p>
+          <h2 data-i18n="stories_title">Drama, horror and action</h2>
         </div>
         <div id="fictionRail" class="rail"></div>
       </section>
 
       <section id="catalog" class="catalog-section">
         <div class="section-heading">
-          <p class="eyebrow">Browse</p>
-          <h2>Full production catalog</h2>
+          <p class="eyebrow" data-i18n="browse_eyebrow">Browse</p>
+          <h2 data-i18n="browse_title">Full production catalog</h2>
         </div>
         <div id="catalogGrid" class="catalog-grid"></div>
       </section>
@@ -127,17 +146,19 @@
         <p id="detailSubtitle"></p>
         <p id="detailMeta" class="detail-meta"></p>
         <div class="detail-actions">
-          <button id="detailPlay" class="button primary" type="button">Play Preview</button>
+          <button id="detailPlay" class="button primary" type="button" data-i18n="play_preview">Play Preview</button>
+          <a id="detailBuy" class="button purchase" href="#" rel="noopener">Buy & Unlock Download</a>
           <span id="detailStatus" class="status-pill"></span>
         </div>
+        <p id="detailDownloadNote" class="download-note"></p>
       </div>
     </aside>
 
     <footer class="player" id="playerBar">
       <img id="playerCover" src="assets/covers/aab-119.png" alt="" />
       <div class="player-info">
-        <strong id="playerTitle">Select an audiobook</strong>
-        <span id="playerSubtitle">Audio previews are available for the first production batch.</span>
+        <strong id="playerTitle" data-i18n="player_title">Select an audiobook</strong>
+        <span id="playerSubtitle" data-i18n="player_subtitle">Browser narration previews are available for the first production batch.</span>
       </div>
       <audio id="audioPlayer" controls preload="none"></audio>
     </footer>

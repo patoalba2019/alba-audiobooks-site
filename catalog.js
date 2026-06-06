@@ -17,9 +17,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-001.png",
-    "audio_preview": "assets/audio/aab-001-preview.m4a",
-    "preview_script": "content/previews/aab-001.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-001-en.txt",
+    "preview_script_es": "content/previews/aab-001-es.txt",
+    "price_usd": "4.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-001",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-002",
@@ -39,9 +44,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-002.png",
-    "audio_preview": "assets/audio/aab-002-preview.m4a",
-    "preview_script": "content/previews/aab-002.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-002-en.txt",
+    "preview_script_es": "content/previews/aab-002-es.txt",
+    "price_usd": "4.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-002",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-003",
@@ -61,7 +71,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-003.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-003",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-004",
@@ -81,7 +96,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-004.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-004",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-005",
@@ -101,7 +121,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-005.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-005",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-006",
@@ -121,7 +146,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-006.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-006",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-007",
@@ -141,7 +171,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-007.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-007",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-008",
@@ -161,7 +196,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-008.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-008",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-009",
@@ -181,7 +221,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-009.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-009",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-010",
@@ -201,7 +246,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-010.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-010",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-011",
@@ -221,7 +271,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-011.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-011",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-012",
@@ -241,7 +296,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-012.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-012",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-013",
@@ -261,7 +321,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-013.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-013",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-014",
@@ -281,7 +346,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-014.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-014",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-015",
@@ -301,7 +371,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-015.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-015",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-016",
@@ -321,7 +396,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-016.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-016",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-017",
@@ -341,7 +421,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-017.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-017",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-018",
@@ -361,7 +446,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-018.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-018",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-019",
@@ -381,7 +471,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-019.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-019",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-020",
@@ -401,7 +496,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-020.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-020",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-021",
@@ -421,7 +521,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-021.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-021",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-022",
@@ -441,7 +546,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-022.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-022",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-023",
@@ -461,7 +571,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-023.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-023",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-024",
@@ -481,7 +596,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-024.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-024",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-025",
@@ -501,7 +621,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-025.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-025",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-026",
@@ -521,7 +646,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-026.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-026",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-027",
@@ -541,7 +671,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-027.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-027",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-028",
@@ -561,7 +696,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-028.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-028",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-029",
@@ -581,7 +721,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-029.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-029",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-030",
@@ -601,7 +746,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-030.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-030",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-031",
@@ -621,7 +771,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-031.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-031",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-032",
@@ -641,7 +796,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-032.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-032",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-033",
@@ -661,7 +821,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-033.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-033",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-034",
@@ -681,7 +846,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-034.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-034",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-035",
@@ -701,7 +871,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-035.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-035",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-036",
@@ -721,7 +896,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-036.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-036",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-037",
@@ -741,7 +921,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-037.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-037",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-038",
@@ -761,7 +946,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-038.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-038",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-039",
@@ -781,7 +971,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-039.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-039",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-040",
@@ -801,7 +996,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-040.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-040",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-041",
@@ -821,7 +1021,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-041.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-041",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-042",
@@ -841,7 +1046,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-042.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-042",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-043",
@@ -861,7 +1071,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-043.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-043",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-044",
@@ -881,7 +1096,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-044.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-044",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-045",
@@ -901,7 +1121,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-045.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-045",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-046",
@@ -921,7 +1146,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-046.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-046",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-047",
@@ -941,7 +1171,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-047.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-047",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-048",
@@ -961,7 +1196,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-048.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-048",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-049",
@@ -981,7 +1221,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-049.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-049",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-050",
@@ -1001,7 +1246,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-050.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-050",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-051",
@@ -1021,7 +1271,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-051.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-051",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-052",
@@ -1041,7 +1296,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-052.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-052",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-053",
@@ -1061,7 +1321,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-053.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-053",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-054",
@@ -1081,7 +1346,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-054.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-054",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-055",
@@ -1101,7 +1371,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-055.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-055",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-056",
@@ -1121,7 +1396,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-056.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-056",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-057",
@@ -1141,7 +1421,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-057.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-057",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-058",
@@ -1161,7 +1446,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-058.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-058",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-059",
@@ -1181,7 +1471,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-059.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-059",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-060",
@@ -1201,7 +1496,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-060.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-060",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-061",
@@ -1221,7 +1521,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-061.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-061",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-062",
@@ -1241,7 +1546,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-062.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-062",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-063",
@@ -1261,7 +1571,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-063.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-063",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-064",
@@ -1281,7 +1596,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-064.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-064",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-065",
@@ -1301,7 +1621,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-065.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-065",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-066",
@@ -1321,7 +1646,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-066.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-066",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-067",
@@ -1341,7 +1671,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-067.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-067",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-068",
@@ -1361,7 +1696,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-068.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-068",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-069",
@@ -1381,7 +1721,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-069.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-069",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-070",
@@ -1401,7 +1746,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-070.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-070",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-071",
@@ -1421,7 +1771,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-071.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-071",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-072",
@@ -1441,7 +1796,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-072.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-072",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-073",
@@ -1461,7 +1821,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-073.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-073",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-074",
@@ -1481,7 +1846,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-074.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-074",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-075",
@@ -1501,7 +1871,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-075.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-075",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-076",
@@ -1521,7 +1896,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-076.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-076",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-077",
@@ -1541,7 +1921,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-077.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-077",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-078",
@@ -1561,7 +1946,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-078.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-078",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-079",
@@ -1581,7 +1971,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-079.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-079",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-080",
@@ -1601,7 +1996,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-080.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-080",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-081",
@@ -1621,7 +2021,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-081.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-081",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-082",
@@ -1641,7 +2046,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-082.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-082",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-083",
@@ -1661,7 +2071,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-083.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-083",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-084",
@@ -1681,7 +2096,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-084.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-084",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-085",
@@ -1701,7 +2121,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-085.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-085",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-086",
@@ -1721,7 +2146,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-086.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-086",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-087",
@@ -1741,7 +2171,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-087.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-087",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-088",
@@ -1761,7 +2196,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-088.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-088",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-089",
@@ -1781,7 +2221,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-089.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-089",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-090",
@@ -1801,7 +2246,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-090.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-090",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-091",
@@ -1821,7 +2271,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-091.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-091",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-092",
@@ -1841,7 +2296,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-092.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-092",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-093",
@@ -1861,7 +2321,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-093.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-093",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-094",
@@ -1881,7 +2346,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-094.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-094",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-095",
@@ -1901,7 +2371,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-095.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-095",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-096",
@@ -1921,7 +2396,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-096.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-096",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-097",
@@ -1941,7 +2421,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-097.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-097",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-098",
@@ -1961,7 +2446,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-098.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-098",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-099",
@@ -1981,7 +2471,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-099.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-099",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-100",
@@ -2001,7 +2496,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-100.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-100",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-101",
@@ -2021,9 +2521,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-101.png",
-    "audio_preview": "assets/audio/aab-101-preview.m4a",
-    "preview_script": "content/previews/aab-101.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-101-en.txt",
+    "preview_script_es": "content/previews/aab-101-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-101",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-102",
@@ -2043,7 +2548,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-102.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-102",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-103",
@@ -2063,7 +2573,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-103.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-103",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-104",
@@ -2083,9 +2598,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-104.png",
-    "audio_preview": "assets/audio/aab-104-preview.m4a",
-    "preview_script": "content/previews/aab-104.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-104-en.txt",
+    "preview_script_es": "content/previews/aab-104-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-104",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-105",
@@ -2105,7 +2625,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-105.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-105",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-106",
@@ -2125,7 +2650,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-106.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-106",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-107",
@@ -2145,9 +2675,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-107.png",
-    "audio_preview": "assets/audio/aab-107-preview.m4a",
-    "preview_script": "content/previews/aab-107.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-107-en.txt",
+    "preview_script_es": "content/previews/aab-107-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-107",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-108",
@@ -2167,7 +2702,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-108.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-108",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-109",
@@ -2187,7 +2727,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-109.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-109",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-110",
@@ -2207,9 +2752,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-110.png",
-    "audio_preview": "assets/audio/aab-110-preview.m4a",
-    "preview_script": "content/previews/aab-110.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-110-en.txt",
+    "preview_script_es": "content/previews/aab-110-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-110",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-111",
@@ -2229,7 +2779,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-111.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-111",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-112",
@@ -2249,7 +2804,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-112.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-112",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-113",
@@ -2269,9 +2829,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-113.png",
-    "audio_preview": "assets/audio/aab-113-preview.m4a",
-    "preview_script": "content/previews/aab-113.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-113-en.txt",
+    "preview_script_es": "content/previews/aab-113-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-113",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-114",
@@ -2291,7 +2856,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-114.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-114",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-115",
@@ -2311,7 +2881,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-115.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-115",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-116",
@@ -2331,9 +2906,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-116.png",
-    "audio_preview": "assets/audio/aab-116-preview.m4a",
-    "preview_script": "content/previews/aab-116.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-116-en.txt",
+    "preview_script_es": "content/previews/aab-116-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-116",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-117",
@@ -2353,7 +2933,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-117.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-117",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-118",
@@ -2373,7 +2958,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-118.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-118",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-119",
@@ -2393,9 +2983,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-119.png",
-    "audio_preview": "assets/audio/aab-119-preview.m4a",
-    "preview_script": "content/previews/aab-119.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-119-en.txt",
+    "preview_script_es": "content/previews/aab-119-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-119",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-120",
@@ -2415,9 +3010,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-120.png",
-    "audio_preview": "assets/audio/aab-120-preview.m4a",
-    "preview_script": "content/previews/aab-120.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-120-en.txt",
+    "preview_script_es": "content/previews/aab-120-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-120",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-121",
@@ -2437,7 +3037,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-121.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-121",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-122",
@@ -2457,9 +3062,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-122.png",
-    "audio_preview": "assets/audio/aab-122-preview.m4a",
-    "preview_script": "content/previews/aab-122.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-122-en.txt",
+    "preview_script_es": "content/previews/aab-122-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-122",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-123",
@@ -2479,7 +3089,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-123.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-123",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-124",
@@ -2499,7 +3114,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-124.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-124",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-125",
@@ -2519,9 +3139,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-125.png",
-    "audio_preview": "assets/audio/aab-125-preview.m4a",
-    "preview_script": "content/previews/aab-125.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-125-en.txt",
+    "preview_script_es": "content/previews/aab-125-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-125",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-126",
@@ -2541,9 +3166,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-126.png",
-    "audio_preview": "assets/audio/aab-126-preview.m4a",
-    "preview_script": "content/previews/aab-126.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-126-en.txt",
+    "preview_script_es": "content/previews/aab-126-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-126",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-127",
@@ -2563,7 +3193,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-127.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-127",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-128",
@@ -2583,9 +3218,14 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-128.png",
-    "audio_preview": "assets/audio/aab-128-preview.m4a",
-    "preview_script": "content/previews/aab-128.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-128-en.txt",
+    "preview_script_es": "content/previews/aab-128-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-128",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-129",
@@ -2605,7 +3245,12 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-129.png",
-    "production_state": "catalog-concept"
+    "production_state": "catalog-concept",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "production-queue",
+    "purchase_url": "checkout.html?book=aab-129",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   },
   {
     "id": "aab-130",
@@ -2625,8 +3270,13 @@ const AUDIOBOOK_CATALOG = [
       "Apple Books"
     ],
     "cover": "assets/covers/aab-130.png",
-    "audio_preview": "assets/audio/aab-130-preview.m4a",
-    "preview_script": "content/previews/aab-130.txt",
-    "production_state": "audio-preview-ready"
+    "production_state": "audio-preview-ready",
+    "preview_script_en": "content/previews/aab-130-en.txt",
+    "preview_script_es": "content/previews/aab-130-es.txt",
+    "price_usd": "2.99",
+    "download_delivery": "private-download-after-payment",
+    "sale_status": "checkout-prepared",
+    "purchase_url": "checkout.html?book=aab-130",
+    "rights_status": "original-ai-assisted-production; final audio requires marketplace disclosure where requested"
   }
 ];

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aura Audio Club | Download</title>
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="checkout-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Aura Audio Club home">
+        <span class="brand-mark">AA</span>
+        <span>Aura Audio Club</span>
+      </a>
+    </header>
+    <main class="checkout-shell">
+      <section class="paywall-section">
+        <div>
+          <p class="eyebrow">Download access</p>
+          <h2 id="downloadTitle">Preparing your private download.</h2>
+          <p id="downloadMessage">
+            The system is checking the payment confirmation before showing the download link.
+          </p>
+          <div class="checkout-actions">
+            <a id="downloadButton" class="button purchase" href="#" hidden>Download Audiobook</a>
+            <a class="button secondary" href="index.html">Back to Catalog</a>
+          </div>
+        </div>
+        <ol class="checkout-steps">
+          <li>Payment confirmation is checked on the server.</li>
+          <li>A signed download token is created for this buyer.</li>
+          <li>The complete audio file is downloaded from private storage.</li>
+        </ol>
+      </section>
+    </main>
+    <script src="checkout-config.js"></script>
+    <script src="download.js"></script>
+  </body>
+</html>

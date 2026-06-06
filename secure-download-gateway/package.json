@@ -1,0 +1,12 @@
+{
+  "name": "aura-secure-download-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Payment-confirmed private download gateway for Aura Audio Club audiobooks.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

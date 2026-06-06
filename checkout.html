@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aura Audio Club | Secure Download Checkout</title>
+    <meta
+      name="description"
+      content="Secure checkout page for Aura Audio Club audiobooks. Free samples stay public; complete downloads unlock only after payment."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="checkout-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Aura Audio Club home">
+        <span class="brand-mark">AA</span>
+        <span>Aura Audio Club</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#listen">Catalog</a>
+        <a href="index.html#prosperity">Prosperity</a>
+        <a href="index.html#recipes">Recipes</a>
+      </nav>
+    </header>
+
+    <main class="checkout-shell">
+      <section class="checkout-card">
+        <img id="checkoutCover" src="assets/covers/aab-119.png" alt="" />
+        <div class="checkout-copy">
+          <p class="eyebrow">Paid digital download</p>
+          <h1 id="checkoutTitle">Aura Audio Club Audiobook</h1>
+          <p id="checkoutSubtitle"></p>
+          <dl class="checkout-facts">
+            <div>
+              <dt>Launch price</dt>
+              <dd id="checkoutPrice">$2.99</dd>
+            </div>
+            <div>
+              <dt>Delivery</dt>
+              <dd>Private download</dd>
+            </div>
+            <div>
+              <dt>Access</dt>
+              <dd>After payment</dd>
+            </div>
+          </dl>
+          <div class="checkout-actions">
+            <a id="marketplaceButton" class="button purchase" href="#" rel="noopener">Buy & Unlock Download</a>
+            <a id="sampleButton" class="button secondary" href="index.html#listen">Listen to Sample</a>
+          </div>
+          <p id="checkoutNotice" class="download-note"></p>
+        </div>
+      </section>
+
+      <section class="paywall-section">
+        <div>
+          <p class="eyebrow">How downloads are protected</p>
+          <h2>No complete audio is stored on this public page.</h2>
+          <p>
+            Public visitors can stream short samples only. Complete files must be hosted by the paid
+            marketplace or by a private download gateway that releases a signed download link only
+            after the payment provider confirms the order.
+          </p>
+        </div>
+        <ol class="checkout-steps">
+          <li>Buyer opens the product page and listens to the free sample.</li>
+          <li>Buyer pays through the active marketplace or secure payment link.</li>
+          <li>The platform unlocks the complete audiobook download for that buyer.</li>
+        </ol>
+      </section>
+    </main>
+
+    <script src="catalog.js"></script>
+    <script src="checkout-config.js"></script>
+    <script src="checkout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.env
+.DS_Store
+.venv/
+assets/audio/*.m4a
+secure-download-gateway/private-audio/
+private-full-audio/
+private-manuscripts/

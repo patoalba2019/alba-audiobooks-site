@@ -41,10 +41,13 @@ financial outcomes.
 4. Prepare cover, description, categories, keywords and sample audio.
 5. Publish first on Amazon/KDP and Audible/ACX where eligible.
 6. Expand to Google Play Books, Kobo and Apple Books.
+7. Put the marketplace URL into `catalog.js` as `marketplace_url` so the public
+   checkout button sends buyers to the paid download.
 
 ## Safety Rules
 
 - Do not sell unpublished or unfinished audio.
+- Do not upload complete audio to the public static site.
 - Do not upload copyrighted recipes, celebrity voices, brand-owned stories or
   public-domain material without checking rights.
 - Do not promise 1,000 recipes unless the companion index and manuscript
@@ -74,5 +77,10 @@ covers cakes, cookies, pastries, chocolate, fruit desserts, holiday sweets,
 breakfast bakes and simple family-table recipes.
 ```
 
-Suggested pricing needs to be checked per marketplace after final runtime,
-format and royalty option are selected.
+Suggested launch pricing:
+
+- Standard titles: USD 2.99
+- Large 1,000+ recipe flagships with companion index: USD 4.99
+
+Final marketplace pricing still needs to be checked after runtime, format and
+royalty options are selected.

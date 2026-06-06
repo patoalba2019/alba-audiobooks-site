@@ -1,0 +1,1 @@
+window.AURA_CHECKOUT_GATEWAY = "";
