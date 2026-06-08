@@ -1,0 +1,37 @@
+{
+  "title": "Messages_from_the_Angels_of_Prosperity",
+  "language": "en",
+  "voice": "en-US-JennyNeural",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Angelic Guidance",
+      "file": "001_Introduction_to_Angelic_Guidance.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 2,
+      "title": "The Angel of Hope",
+      "file": "002_The_Angel_of_Hope.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 3,
+      "title": "The Angel of Abundance",
+      "file": "003_The_Angel_of_Abundance.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 4,
+      "title": "The Angel of Courage",
+      "file": "004_The_Angel_of_Courage.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 5,
+      "title": "The Angel of Renewal",
+      "file": "005_The_Angel_of_Renewal.mp3",
+      "duration": 0.0
+    }
+  ]
+}

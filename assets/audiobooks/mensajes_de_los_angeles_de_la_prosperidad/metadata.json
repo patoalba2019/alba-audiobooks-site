@@ -1,0 +1,37 @@
+{
+  "title": "Mensajes_de_los_Angeles_de_la_Prosperidad",
+  "language": "es",
+  "voice": "es-ES-ElviraNeural",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introducción a la Guía Angélica",
+      "file": "001_Introducción_a_la_Guía_Angélica.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 2,
+      "title": "El Ángel de la Esperanza",
+      "file": "002_El_Ángel_de_la_Esperanza.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 3,
+      "title": "El Ángel de la Abundancia",
+      "file": "003_El_Ángel_de_la_Abundancia.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 4,
+      "title": "El Ángel del Coraje",
+      "file": "004_El_Ángel_del_Coraje.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 5,
+      "title": "El Ángel de la Renovación",
+      "file": "005_El_Ángel_de_la_Renovación.mp3",
+      "duration": 0.0
+    }
+  ]
+}

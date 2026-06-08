@@ -1,0 +1,25 @@
+{
+  "title": "The_Thousand_Sweet_Recipes_Treasury",
+  "language": "en",
+  "voice": "en-US-GuyNeural",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Welcome to the Sweet Recipes Treasury",
+      "file": "001_Welcome_to_the_Sweet_Recipes_Treasury.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 2,
+      "title": "Essential Baking Tips",
+      "file": "002_Essential_Baking_Tips.mp3",
+      "duration": 0.0
+    },
+    {
+      "number": 3,
+      "title": "Classic Chocolate Chip Cookies",
+      "file": "003_Classic_Chocolate_Chip_Cookies.mp3",
+      "duration": 0.0
+    }
+  ]
+}
